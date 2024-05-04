@@ -8,13 +8,22 @@ i'm following this excellent tutorial by nora sandler: [https://norasandler.com/
 
 i really like the style of showing the language theoretical and assembly information that is necessary to understand what the code should do but leaving it open to the reader on actually how to implement it, this helps a lot when learning a new language
 
+## testing
+
+put in the stages you wanna test instead of `1 2 3`
+
+```sh
+cd test_files
+./test_compiler.sh ../target/debug/rust-c-compiler 1 2 3
+```
+
 ## progress
 
 this will be very slow since i don't have any time to really be eager to finish this project
 
 - [x] [Stage 1](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
 - [x] [Stage 2](https://norasandler.com/2017/12/05/Write-a-Compiler-2.html)
-- [ ] [Stage 3](https://norasandler.com/2017/12/15/Write-a-Compiler-3.html)
+- [x] [Stage 3](https://norasandler.com/2017/12/15/Write-a-Compiler-3.html)
 - [ ] [Stage 4](https://norasandler.com/2017/12/28/Write-a-Compiler-4.html)
 - [ ] [Stage 5](https://norasandler.com/2018/01/08/Write-a-Compiler-5.html)
 - [ ] [Stage 6](https://norasandler.com/2018/02/25/Write-a-Compiler-6.html)
